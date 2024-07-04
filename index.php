@@ -36,7 +36,7 @@ function task_two(array $par =  [9, 3, 7, 8, 2, 6, 1, 4, 10, 2, 2, 3])
 
         $container[$selected['index']] = $selected['value'];
 
-        $container = array_merge($container, $explited);
+        $container = array_merge($container, $explited[1]);
       }
     }
   }
